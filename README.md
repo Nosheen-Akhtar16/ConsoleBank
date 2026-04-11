@@ -7,21 +7,18 @@ The system also includes a fraud detection mechanism to identify suspicious acti
 🚀 Features
 
 🔹 Core Banking Features
-
-   Create new bank accounts
-   Deposit money
-   Withdraw money
-   View transaction history
-   Bank analytics (total money & number of accounts)
+ Create new bank accounts
+ Deposit money
+ Withdraw money
+ View transaction history
+ Bank analytics (total money & number of accounts)
    
 🔹 Fraud Detection System
-
-  ⚠️ Detects large withdrawals (> ₹50,000)
-  ⚠️ Detects multiple withdrawals within 60 seconds
+  ⚠️ Detects large withdrawals (> ₹50,000)  
+  ⚠️ Detects multiple withdrawals within 60 seconds  
   Logs suspicious activities in a file (fraud_log.txt)
   
 🔹 File Handling
-
    Stores account details in accounts.txt
    Stores transactions in transactions.txt
    Logs fraud alerts in fraud_log.txt
@@ -47,9 +44,13 @@ Input validation
 Banking-System/
 │
 ├── project.cpp
+
 ├── accounts.txt
+
 ├── transactions.txt
+
 ├── fraud_log.txt
+
 └── README.md
 
 ⚙️ How It Works
@@ -97,7 +98,11 @@ Managing transaction history
 
 🚧 Future Improvements
 Add login/authentication system
+
 GUI version (using Qt / Web App)
+
 Database integration (MySQL)
+
 More advanced fraud detection (ML-based)
+
 Multi-user support
