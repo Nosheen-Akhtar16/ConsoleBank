@@ -5,7 +5,9 @@ This is a console-based Banking System developed in C++ that simulates basic ban
 The system also includes a fraud detection mechanism to identify suspicious activities like large withdrawals and rapid transactions.
 
 🚀 Features
+
 🔹 Core Banking Features
+
    Create new bank accounts
    Deposit money
    Withdraw money
@@ -13,16 +15,19 @@ The system also includes a fraud detection mechanism to identify suspicious acti
    Bank analytics (total money & number of accounts)
    
 🔹 Fraud Detection System
+
   ⚠️ Detects large withdrawals (> ₹50,000)
   ⚠️ Detects multiple withdrawals within 60 seconds
   Logs suspicious activities in a file (fraud_log.txt)
   
 🔹 File Handling
+
    Stores account details in accounts.txt
    Stores transactions in transactions.txt
    Logs fraud alerts in fraud_log.txt
    
 🛠️ Technologies Used
+
 Language: C++
 Concepts Used:
 Object-Oriented Programming (OOP)
@@ -32,6 +37,7 @@ Time handling (ctime)
 Input validation
 
 📂 Project Structure
+
 Banking-System/
 │
 ├── project.cpp
@@ -41,6 +47,7 @@ Banking-System/
 └── README.md
 
 ⚙️ How It Works
+
 1. Account Creation
 User enters account number and name
 Account is stored in memory and saved to file
@@ -56,12 +63,14 @@ If withdrawal > 50000 → 🚨 Alert
 If ≥3 withdrawals within 60 seconds → 🚨 Alert
 
 ▶️ How to Run
+
 Step 1: Compile
-g++ main.cpp -o bank
+       g++ main.cpp -o bank
 Step 2: Run
-./bank
+      ./bank
 
 🖥️ Sample Menu
+
 === Banking System ===
 1. Create Account
 2. Deposit
