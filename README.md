@@ -29,11 +29,17 @@ The system also includes a fraud detection mechanism to identify suspicious acti
 🛠️ Technologies Used
 
 Language: C++
+
 Concepts Used:
+
 Object-Oriented Programming (OOP)
+
 File Handling (fstream)
+
 STL (vector)
+
 Time handling (ctime)
+
 Input validation
 
 📂 Project Structure
